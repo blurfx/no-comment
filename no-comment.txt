@@ -36,3 +36,17 @@ sports.news.naver.com##.video_comment_num
 dogdrip.net###comment_top
 dogdrip.net##.text-small.text-default~.text-primary
 dogdrip.net##.title .text-primary
+
+instiz.net##.cmt
+instiz.net###ajax_comment
+instiz.net###ajax_comment~table
+instiz.net###replemodetextarea
+
+ruliweb.com##.num_reply
+ruliweb.com##.news_read>.row:last-child
+ruliweb.com##.reply_count
+ruliweb.com##.comment_container
+ruliweb.com##.board_bottom
+
+clien.net##.list_reply
+clien.net##.post_comment
