@@ -18,6 +18,7 @@
 
 
 # specific rules
+comic.naver.com###commentIframe
 sports.v.daum.net##.cmt_view
 auto.v.daum.net##.cmt_view
 news.v.daum.net##.cmt_view>div
