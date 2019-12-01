@@ -1,0 +1,38 @@
+[Adblock Plus 2.0]
+! Homepage: https://github.com/blurfx/no-comment
+! License: https://github.com/blurfx/no-comment#license
+! Title: No-Comment
+! Expires: 3 days
+! Version: 20191201
+
+! general rules
+###alexCounter
+###cbox_module
+##.area_comment
+##.box_cmt
+##.btn_comment
+##.link_comment
+##.video_comment_num
+##ytd-comments
+##ytm-comment-section-renderer
+
+
+# specific rules
+sports.v.daum.net##.cmt_view
+auto.v.daum.net##.cmt_view
+news.v.daum.net##.cmt_view>div
+
+blog.naver.com##.post-btn.post_btn2~div
+entertain.naver.com##.entertain_cbox
+entertain.naver.com##.reply_count
+news.naver.com###articleTitleCommentCount
+news.naver.com##.media_end_head_info_variety_cmtcount
+sports.naver.com###spt_commentCount
+sports.news.naver.com##.comment
+sports.news.naver.com##.comment_guide
+sports.news.naver.com##.news_comment
+sports.news.naver.com##.video_comment_num
+
+dogdrip.net###comment_top
+dogdrip.net##.text-small.text-default~.text-primary
+dogdrip.net##.title .text-primary
