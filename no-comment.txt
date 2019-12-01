@@ -3,7 +3,7 @@
 ! License: https://github.com/blurfx/no-comment#license
 ! Title: No-Comment
 ! Expires: 3 days
-! Version: 20191201
+! Version: 20191202
 
 ! general rules
 ###alexCounter
@@ -11,6 +11,11 @@
 ##.area_comment
 ##.box_cmt
 ##.btn_comment
+##.comment
+###cmtPosition
+##.cmt_editor
+##.replyNum
+##.reply_count
 ##.link_comment
 ##.video_comment_num
 ##ytd-comments
@@ -18,25 +23,23 @@
 
 
 # specific rules
-comic.naver.com###commentIframe
 sports.v.daum.net##.cmt_view
 auto.v.daum.net##.cmt_view
 news.v.daum.net##.cmt_view>div
 
 blog.naver.com##.post-btn.post_btn2~div
+comic.naver.com###commentIframe
 entertain.naver.com##.entertain_cbox
-entertain.naver.com##.reply_count
 news.naver.com###articleTitleCommentCount
 news.naver.com##.media_end_head_info_variety_cmtcount
 sports.naver.com###spt_commentCount
-sports.news.naver.com##.comment
 sports.news.naver.com##.comment_guide
 sports.news.naver.com##.news_comment
 sports.news.naver.com##.video_comment_num
 
 dogdrip.net###comment_top
 dogdrip.net##.text-small.text-default~.text-primary
-dogdrip.net##.title .text-primary
+dogdrip.net##.title .text-primary:not(:first-child)
 
 instiz.net##.cmt
 instiz.net###ajax_comment
@@ -45,9 +48,28 @@ instiz.net###replemodetextarea
 
 ruliweb.com##.num_reply
 ruliweb.com##.news_read>.row:last-child
-ruliweb.com##.reply_count
 ruliweb.com##.comment_container
 ruliweb.com##.board_bottom
 
 clien.net##.list_reply
 clien.net##.post_comment
+
+nate.com###ifr_reple
+nate.com##.cmt_count
+
+fmkorea.com##.content .side.fr span:last-child
+fmkorea.com##.comment_count
+
+inven.co.kr##.cmtnum
+inven.co.kr###webzineNewsCommentList
+inven.co.kr###webzineNewsCommentList+.webzineNewsBotMenu
+inven.co.kr###powerbbsCmt2
+inven.co.kr##.sj_cm
+inven.co.kr##.article-comment
+
+mlbpark.donga.com##.reply_zone
+mlbpark.donga.com##.reply_list
+mlbpark.donga.com###cmtFormTable
+mlbpark.donga.com##span.tit:nth-of-type(4)
+mlbpark.donga.com###replyCnt
+mlbpark.donga.com##.replycnt
